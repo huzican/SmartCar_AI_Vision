@@ -1,0 +1,57 @@
+gain	5
+time	220
+ofset	28
+endth	25
+shold	110
+gama	0.45
+
+left_kp	21.3
+left_ki	0.72
+right_kp	21.3
+right_ki	0.72
+servo_kp	1.18
+servo_kp	1.799
+speed	170
+
+新车舵机
+SERVO_MID 		650
+SERVO_RIGHT_MAX		720
+SERVO_LEFT_MAX		580
+
+
+
+0707加flash前备份参数
+
+  image_gain = 5;
+  exposure_time =200;
+  image_LRoffset = 10;
+  END_TH = 20;
+  CONTRAST_THRESHOLD = 110;
+  gama = 0.45;
+  LEFT_KP = 21.45;
+  LEFT_KI = 2.6;
+  LEFT_KD = 0;
+  RIGHT_KP = 21.45;
+  RIGHT_KI = 2.6;
+  RIGHT_KD = 0;
+  SERVO_KP = 1.18;
+  SERVO_KI = 0   ;
+  SERVO_KD = 1.8;
+  ART_SERVO_KP = 3.05;
+  ART_SERVO_KD = 0;
+  motor.speed_set = 290;
+  
+  pic_info.elem_type = COMMON;
+  pic_info.circle_e = NOCICLE;
+  pic_info.cross_e = NOCROSS;
+  pic_info.fork_e = NOFORK;
+  
+  oled_menu.page = 1;
+  oled_menu.step = 1;
+  oled_menu.set = 0;
+  oled_menu.up = 0;
+  oled_menu.down = 0;
+  oled_menu.sign = 0;
+  oled_menu.res = 0;
+  oled_menu.cls = 0;
+  oled_menu.show = 'F';
